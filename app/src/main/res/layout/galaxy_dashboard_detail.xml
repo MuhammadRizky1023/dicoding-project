@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/CardView.DashboardDetail"
+    app:cardBackgroundColor="@color/purple_light"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rv_galaxy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/galaxy_photo"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="16dp"
+            tools:src="@tools:sample/avatars"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/galaxy_photo">
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/galaxy_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="@string/galaxy_name"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:id="@+id/galaxy_inventor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="@string/galaxy_inventor"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

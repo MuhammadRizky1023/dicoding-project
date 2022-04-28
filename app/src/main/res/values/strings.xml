@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DicodingProjectApp</string>
+    <string name="galaxy_name">Nama Galaxy</string>
+    <string name="galaxy_detail">Galaxy Detail</string>
+    <string name="galaxy_review">Review</string>
+    <string name="galaxy_background">Background</string>
+    <string name="galaxy_favorite">Favorite</string>
+    <string name="galaxy_share">Share</string>
+    <string name="galaxy_home">Home</string>
+    <string name="galaxy_profile">Profile</string>
+    <string name="galaxy_information">Galaxy Information</string>
+    <string name="galaxy_inventor">Penemu Galaxy</string>
+    <string name="galaxy_title_information">Information</string>
+    <string name="galaxy_title_detail">Detail</string>
+    <string name="galaxy_button_like">Like</string>
+    <string name="profile_my_email">muhammadrizky102356@gmail.com</string>
+    <string name="profile_my_name">Muhammad Rizky</string>
+</resources>
